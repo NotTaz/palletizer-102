@@ -362,6 +362,7 @@ class Palletizer(Generic, EasyResource):  # noqa: F405  (Generic comes from the 
             # TODO 1: if there is no room, swap the tray and `continue`.
             if not await self.pallet_has_room():
                 await self.swap_tray()
+                continue
             # TODO 2: otherwise place one box.
             await self.place()
             placed += 1
