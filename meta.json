@@ -9,7 +9,7 @@
     }
   ],
   "visibility": "private",
-  "url": "",
+  "url": "https://github.com/NotTaz/palletizer-102",
   "description": "A generic service that would turn the robot into a palletizer and be able to stack boxes onto a pallet.",
   "markdown_link": "README.md",
   "entrypoint": "dist/main",
